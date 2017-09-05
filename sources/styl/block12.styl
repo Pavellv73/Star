@@ -1,0 +1,162 @@
+.block12
+  width 100%
+  height auto
+  background-color #f7fcff
+
+  .block12-content
+    width 100%
+    height auto
+    justify-content center
+    align-items center
+    flex-direction column
+    padding-top 32px
+    padding-bottom 32px
+    box-sizing border-box
+
+    .block12-head
+      width 100%
+      height auto
+      margin-bottom 27px
+      @media (min-width t-screen)
+        margin-bottom 40px
+
+    .contacts
+      width 100%
+      height auto
+      @media (min-width d-screen)
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items center
+        flex-direction row
+
+      .maps
+        width 100%
+        height auto
+        margin-bottom 32px
+        @media (min-width d-screen)
+          margin-bottom 0
+          margin-right 40px
+
+        iframe
+          width 100%
+          height 220px
+          @media (min-width t-screen)
+            height 400px
+          @media (min-width d-screen)
+            width 584px
+
+      .contact-info
+        width 100%
+        height auto
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items center
+        flex-direction column
+        @media (min-width d-screen)
+          justify-content flex-start
+          align-items flex-start
+
+
+        .phone-mail
+          width 296px
+          height 154px
+          border-radius 5px
+          background-image linear-gradient(180deg, #3ed2f0 0%, #1da5db 100%)
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          flex-direction column
+          margin-bottom 25px
+          @media (min-width t-screen)
+            width 440px
+            height 166px
+
+          p
+            color #ffffff
+            font-family Geometria
+            font-size 14px
+            text-align center
+            @media (min-width t-screen)
+              font-size 18px
+              margin-bottom 24px
+
+          a
+            color #ffffff
+            font-family Geometria
+            font-size 21px
+            font-weight 500
+            text-align center
+            @media (min-width t-screen)
+              font-size 28px
+              text-align left
+              line-height 30px
+
+      .addres
+        width 100%
+        height auto
+        margin-bottom 32px
+        @media (min-width t-screen)
+          width 55%
+
+        p
+          color #5c5c5c
+          font-family Geometria
+          font-size 14px
+          text-align center
+          @media (min-width t-screen)
+            font-size 18px
+            text-align left
+
+
+      .social
+        width 100%
+        height auto
+        @media (min-width d-screen)
+          display flex
+          display -webkit-flex
+          justify-content flex-start
+          align-items flex-start
+          flex-direction column
+
+        p
+          color #5c5c5c
+          font-family Geometria
+          font-size 14px
+          text-align center
+
+        .icon-social
+          width 100%
+          height auto
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          flex-direction row
+          padding-top 16px
+          box-sizing border-box
+          @media (min-width d-screen)
+            align-items flex-start
+            justify-content flex-start
+
+          a
+            margin 0 22px
+            @media (min-width d-screen)
+              margin 0 10px
+            &:first-child
+              margin-left 0
+
+
+            img
+              opacity 1
+              transition all 0.2s ease
+              width 36px
+              height 36px
+              @media (min-width d-screen)
+                width 40px
+                height 40px
+
+              &:hover
+                opacity 0.7

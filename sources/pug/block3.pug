@@ -1,0 +1,80 @@
+section.block3.cnt
+    div.block3-content.row
+        div.block3-img-head
+
+        div.calculator-block
+            p Узнайте сколько вы сможете зарабатывать после прохождения курса:
+            div.input-blocks
+
+                div.input-block
+                    div.procedure
+                        p Количество <br>процедур в день:
+                        span 7
+                    input(type="range" name="procedure" min="1" max="7")
+
+                div.input-block
+                    div.val
+                        p Стоимость <br>процедуры:
+                        span 7 000&nbsp;
+                            b руб
+                    input(type="range" name="value" min="1000" max="15000")
+
+            div.result-block
+                p Ваш ежемесячный заработок:
+                span 100 000&nbsp;
+                    b руб.
+
+            div.calculator-info
+                p Учись сегодня - плати завтра  рассрочка<br>&nbsp;0 - 0 - 24
+                    span
+                p При заказе базового курса и набора <br>скидка&nbsp;
+                    span 20%
+
+            div.radio-blocks
+                div.radio-block.base
+                    div.base-block
+                    div.rb-text
+                        p Базовый курс <br>обучения
+                        span 65 000 &nbsp;	руб.
+
+                div.radio-block.start
+                    div.start-block
+                    div.rb-text
+                        p Стартовый <br>набор оборудования
+                        span 200 000 &nbsp;	руб.
+
+            div.installment
+                p Выгодная рассрочка:
+                div.installments-blocks
+                    div.installment-block
+                        div.term
+                            p Срок рассрочки:
+                            span 24&nbsp;
+                                b мес.
+                        input.term-input(type="range" name="term" min="1" max="8")
+
+                    div.installment-block
+                        div.summ
+                            p Сумма выплат <br> в месяц:
+                            span 90 000
+                        input.summ-input(type="range" name="summ" min="10 000" max="90 000")
+
+                p.will-pay Ваш вклад окупится через: &nbsp;
+                    span 14 дней
+
+
+        form(method="post" action="mailer.php")
+            p Запишитесь на обучение в Академию
+            div.input-form
+                input.phone(name="phone" type="tel" placeholder="Ваш телефон")
+                input(name="email" type="text" placeholder="Ваш email")
+                button.submit(type="submit") Записаться
+            p.polit Заполняя данную форму вы принимаете условия &nbsp;
+                a.fancybox(href="obrabotka_personalnih_dannih_nc.pdf" target="_blank") обработки и использования
+            p.polit персональных данных. Мы гарантируем конфиденциальность Ваших данных
+
+
+
+
+
+

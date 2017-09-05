@@ -1,0 +1,48 @@
+header
+    div.header-content.row
+        div.block-logo
+            img(src="img/logo.png")
+
+        div.hamburger.hamburger--collapse
+            div.hamburger-box
+                div.hamburger-inner
+
+
+        div.menu
+            div.menu-content
+                a.a-phone(href='tel:88000000000​') 8 (800) 000-00-00​
+                a.fancybox.a-blue(href='#consultation-popup') Заказать консультацию
+                nav
+                    a.scroll-to(href="#" onclick='return false') Ваш заработок
+                    a.scroll-to(href="#" onclick='return false') О компании
+                    a.scroll-to(href="#" onclick='return false') Виды обучения
+                    a.scroll-to(href="#" onclick='return false') Наши мероприятия
+                    a.scroll-to(href="#" onclick='return false') Контакты
+
+                div.social-icon
+                    a(href="#" onclick='return false')
+                        img(src="img/fb.png")
+                    a(href="#" onclick='return false')
+                        img(src="img/insta.png")
+                    a(href="#" onclick='return false')
+                        img(src="img/vk.png")
+
+
+        div.head-phone
+            a.a-phone(href='tel:88000000000​') 8 (800) 000-00-00​
+            a.fancybox.a-blue(href='#consultation-popup') Заказать консультацию
+
+
+
+div#consultation-popup
+    div.consultatio
+        form(action="mailer.php" method="post")
+            p Оставьте заявку, и мы свяжемся с вами в ближайшее время
+            input.phone(name="phone" type="text" placeholder="Ваш телефон")
+            input(name="email" type="text" placeholder="Ваш email")
+            button.submit(type="submit") Записаться
+            p.polit Заполняя данную форму вы принимаете условия &nbsp;
+                a.fancybox(href="obrabotka_personalnih_dannih_nc.pdf" target="_blank") обработки и использования
+            p.polit персональных данных. Мы гарантируем конфиденциальность Ваших данных
+
+

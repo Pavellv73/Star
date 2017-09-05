@@ -1,0 +1,20 @@
+section.block10.cnt
+    div.parallax-container
+        div.parallax
+            img(src="img/block10-bg.png")
+
+
+    div.block10-content.row
+        div.block10-head
+            h3 Хотите посетить любое мероприятие, а затем <br>ещё одно в своем городе?
+            p Оставьте заявку и мы приедем в ваш город <br>с бесплатным мастер классом
+
+        form(method="post" action="mailer.php")
+            p Укажите свои контакты, и мы свяжемся с вами в ближайшее время
+            div.input-form
+                input.phone(name="phone" type="tel" placeholder="Ваш телефон")
+                input(name="email" type="text" placeholder="Ваш email")
+                button.submit(type="submit") Записаться
+            p.polit Заполняя данную форму вы принимаете условия &nbsp;
+                a.fancybox(href="obrabotka_personalnih_dannih_nc.pdf" target="_blank") обработки и использования
+            p.polit персональных данных. Мы гарантируем конфиденциальность Ваших данных

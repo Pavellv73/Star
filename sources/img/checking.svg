@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>checking</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1280" transform="translate(-669.000000, -2011.000000)">
+            <g id="Group-12" transform="translate(550.000000, 1448.000000)">
+                <g id="checking" transform="translate(119.000000, 563.000000)">
+                    <path d="M26.5688442,8.43243243 C25.9939698,7.85585586 25.1095477,7.85585586 24.5346734,8.43243243 L12.5065327,20.4961885 L7.46532663,15.4844075 C6.89045226,14.9078309 6.00603015,14.9078309 5.43115578,15.4844075 C4.85628141,16.0609841 4.85628141,16.9480249 5.43115578,17.5246015 L11.4894472,23.5564796 C11.7547739,23.8225918 12.1527638,24 12.5065327,24 C12.8603015,24 13.2582915,23.8225918 13.5236181,23.5564796 L26.5688442,10.5169785 C27.1437186,9.94040194 27.1437186,9.00900901 26.5688442,8.43243243 Z" id="Shape" fill="#E7F8FE" fill-rule="nonzero"></path>
+                    <rect id="Rectangle-8" stroke="#A4D8EA" x="0.5" y="0.5" width="31" height="31" rx="4"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

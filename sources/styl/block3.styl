@@ -1,0 +1,631 @@
+.block3
+  width 100%
+  height auto
+  background-color #f7fcff
+  @media (min-width d-screen)
+    padding-left 0
+
+  .block3-content
+    width 100%
+    height auto
+    justify-content center
+    align-items center
+    flex-direction column
+    box-sizing border-box
+    padding-top 32px
+    padding-bottom 78px
+    position relative
+    @media (min-width t-screen)
+      padding-bottom 0
+    @media (min-width d-screen)
+      flex-direction row
+
+
+    .block3-img-head
+      width 100%
+      height 311px
+      background-image url("img/girl-img.png")
+      background-repeat no-repeat
+      background-position center
+      background-size 100%
+      @media (min-width t-screen)
+        height 670px
+        background-size 84%
+      @media (min-width d-screen)
+        background-size 100%
+        height 750px
+        width 49%
+
+
+
+    .calculator-block
+      width 108%
+      height auto
+      background-color #4ec2e7
+      border-radius 3px
+      box-sizing border-box
+      padding-top 24px
+      padding-bottom 101px
+      padding-left 12px
+      padding-right 12px
+      @media (min-width t-screen)
+        width 660px
+        padding-top 56px
+        padding-bottom 221px
+        padding-left 35px
+        padding-right 35px
+      @media (min-width d-screen)
+        width
+
+      p
+        color #ffffff
+        font-family Geometria
+        font-size 20px
+        line-height 22px
+        text-align center
+        margin-bottom 32px
+        @media (min-width t-screen)
+          font-size 28px
+          text-align left
+          font-weight 300
+          line-height 31px
+
+      .input-blocks
+        width 100%
+        height auto
+        @media (min-width t-screen)
+          display flex
+          display -webkit-flex
+          justify-content space-between
+          align-items center
+          flex-direction row
+          margin-bottom 48px
+
+        .input-block
+          width 280px
+          height 123px
+          border-radius 8px
+          border 1px solid #84cee9
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          flex-direction column
+          padding 20px 20px
+          box-sizing border-box
+          margin-bottom 20px
+          @media (min-width t-screen)
+            margin-bottom 0
+          &:nth-child(1)
+            input
+              &:before
+                content "1"
+                color #bfe3f0
+                font-family Geometria
+                font-size 14px
+                position absolute
+                top 28px
+              &:after
+                content "7"
+                color #bfe3f0
+                font-family Geometria
+                font-size 14px
+                position absolute
+                top 28px
+                right 3px
+          &:nth-child(2)
+            input
+              &:before
+                content "1000"
+                color #bfe3f0
+                font-family Geometria
+                font-size 14px
+                position absolute
+                top 28px
+              &:after
+                content "15000"
+                color #bfe3f0
+                font-family Geometria
+                font-size 14px
+                position absolute
+                top 28px
+                right 3px
+
+
+          .procedure, .val
+            width 100%
+            height auto
+            display flex
+            display -webkit-flex
+            justify-content space-between
+            align-items flex-end
+            flex-direction row
+
+            p
+              margin-bottom 0
+              text-align left
+              color #ffffff
+              font-family Lato
+              font-size 16px
+              font-weight 400
+              line-height 18px
+
+            span
+              color #ffffff
+              font-family Geometria
+              font-size 26px
+              font-weight 700
+
+              b
+                font-size 16px
+                font-family 400
+
+          input
+            border none
+            margin 0
+            position relative
+
+          input[type=range]:focus
+            outline none
+
+          input[type=range]::-ms-track
+            width 100%
+            cursor pointer
+            background-color #ffffff
+            border-color transparent
+
+          input[type=range]::-webkit-track
+            width 100%
+            cursor pointer
+            background-color #ffffff
+            border-color transparent
+
+          input[type=range]::-moz-range-track
+            width 100%
+            cursor pointer
+            background-color #ffffff
+            border-color transparent
+
+          input[type=range]::-webkit-slider-thumb
+            box-shadow 0px 0px 0px #000000
+            border 0px solid #2497E3
+            height 16px
+            width 16px
+            border-radius 25px
+            background #FFFFFF
+            cursor pointer
+            -webkit-appearance none
+
+          input[type=range]::-moz-range-thumb
+            box-shadow 0px 0px 0px #000000
+            border 0px solid #2497E3
+            height 16px
+            width 16px
+            border-radius 25px
+            background #FFFFFF
+            cursor pointer
+
+          input[type=range]::-ms-thumb
+            margin-top 1px
+            box-shadow 0px 0px 0px #000000
+            border 0px solid #2497E3
+            height 16px
+            width 16px
+            border-radius 25px
+            background #FFFFFF
+            cursor pointer
+
+      .result-block
+        width 100%
+        height auto
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items center
+        flex-direction column
+        margin-bottom 32px
+
+
+
+        p
+          color #ffffff
+          font-family Lato
+          font-size 18px
+          font-weight 400
+          text-align center
+          margin-bottom 10px
+
+        span
+          color #ffffff
+          font-family Geometria
+          font-weight 700
+          font-size 40px
+          text-align center
+
+          b
+            font-size 24px
+            font-weight 500
+
+      .calculator-info
+        width 100%
+        height auto
+        margin-bottom 40px
+
+        p
+          color #ffffff
+          font-family Lato
+          line-height 15px
+          font-size 14px
+          font-weight 400
+          margin-bottom 5px
+          @media (min-width t-screen)
+            font-size 20px
+            line-height 26px
+            text-align center
+            br
+              display none
+          span
+            font-size 24px
+            font-weight 800
+            @media (min-width t-screen)
+              font-size 24px
+
+      .radio-blocks
+        width 100%
+        height auto
+        @media (min-width d-screen)
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items flex-start
+          flex-direction row
+
+        .radio-block
+          width 100%
+          height auto
+          display flex
+          display -webkit-flex
+          justify-content flex-start
+          align-items center
+          flex-direction row
+          margin-bottom 20px
+          cursor pointer
+          @media (min-width t-screen)
+            width 60%
+            margin 0 auto
+          @media (min-width d-screen)
+            justify-content center
+            align-items flex-start
+
+          .base-block, .start-block
+            width 32px
+            height 32px
+            border-radius 4px
+            border 1px solid #a4d8ea
+            position relative
+            opacity 1
+            background transparent
+
+
+          .check-box
+            background-image url("img/checking.svg")
+            background-position center
+            background-size 100%
+            background-repeat no-repeat
+
+          .rb-text
+            width 100%
+            height auto
+            display flex
+            display -webkit-flex
+            justify-content flex-start
+            align-items flex-start
+            flex-direction column
+            margin-left 16px
+            @media (min-width d-screen)
+              width auto
+
+            p
+              width auto
+              color #ffffff
+              font-family Lato
+              font-size 20px
+              font-weight 700
+              text-align left
+              margin-bottom 10px
+              @media (min-width t-screen)
+                br
+                  display none
+              @media (min-width d-screen)
+                line-height 21px
+                br
+                  display block
+
+
+
+
+            span
+              color #bfe3f0
+              font-family Lato
+              font-size 18px
+              font-weight 400
+              text-align left
+
+
+      .installment
+        display none
+        width 108%
+        height auto
+        background-color rgba(255, 255, 255, 0.2)
+        margin-left -12px
+        padding-top 15px
+        padding-bottom 15px
+        box-sizing border-box
+        @media (min-width t-screen)
+          width 112%
+          margin-left -35px
+          padding-top 30px
+          padding-left 35px
+          padding-right 35px
+          padding-bottom 30px
+
+        p
+          color #ffffff
+          font-family Geometria
+          font-size 20px
+          font-weight 300
+          text-align center
+          @media (min-width t-screen)
+            font-size 28px
+
+
+
+        .installments-blocks
+          width 100%
+          height auto
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          flex-direction column
+          @media (min-width t-screen)
+            flex-direction row
+            justify-content space-between
+            p
+
+          .installment-block
+            width 277px
+            height 123px
+            border-radius 8px
+            border 1px solid #93e3ff
+            padding 20px 20px
+            box-sizing border-box
+            margin-bottom 20px
+            @media (min-width t-screen)
+              margin-bottom 0
+
+
+            .term, .summ
+              width 100%
+              height auto
+              display flex
+              display -webkit-flex
+              justify-content space-between
+              align-items center
+              flex-direction row
+
+              p
+                color #ffffff
+                font-family Lato
+                font-size 16px
+                font-weight 400
+                line-height 18px
+                margin-bottom 0
+                text-align left
+
+
+              span
+                color #ffffff
+                font-family Geometria
+                font-size 28px
+                font-weight 700
+
+                b
+                  font-size 16px
+                  font-weight 500
+
+
+            input
+              border none
+              margin 0
+
+            input[type=range]:focus
+              outline none
+
+            input[type=range]::-ms-track
+              width 100%
+              cursor pointer
+              background-color #ffffff
+              border-color transparent
+
+            input[type=range]::-webkit-track
+              width 100%
+              cursor pointer
+              background-color #ffffff
+              border-color transparent
+
+            input[type=range]::-moz-range-track
+              width 100%
+              cursor pointer
+              background-color #ffffff
+              border-color transparent
+
+            input[type=range]::-webkit-slider-thumb
+              box-shadow 0px 0px 0px #000000
+              border 0px solid #2497E3
+              height 16px
+              width 16px
+              border-radius 25px
+              background #FFFFFF
+              cursor pointer
+              -webkit-appearance none
+
+            input[type=range]::-moz-range-thumb
+              box-shadow 0px 0px 0px #000000
+              border 0px solid #2497E3
+              height 16px
+              width 16px
+              border-radius 25px
+              background #FFFFFF
+              cursor pointer
+
+            input[type=range]::-ms-thumb
+              margin-top 1px
+              box-shadow 0px 0px 0px #000000
+              border 0px solid #2497E3
+              height 16px
+              width 16px
+              border-radius 25px
+              background #FFFFFF
+              cursor pointer
+
+            .term-input
+              position relative
+              &:before
+                content "1"
+                color #ffffff
+                font-family Geometria
+                font-size 14px
+                position absolute
+                top 24px
+              &:after
+                content "8"
+                color #ffffff
+                font-family Geometria
+                font-size 14px
+                position absolute
+                top 24px
+                right 3px
+
+            .summ-input
+              position relative
+              &:before
+                content "10 000 руб"
+                color #ffffff
+                font-family Geometria
+                font-size 14px
+                position absolute
+                top 24px
+              &:after
+                content "90 000 руб"
+                color #ffffff
+                font-family Geometria
+                font-size 14px
+                position absolute
+                top 24px
+                right 3px
+
+
+
+
+        p.will-pay
+          color #ffffff
+          font-family Lato
+          font-size 16px
+          font-weight 400
+          text-align center
+          margin-top 20px
+          @media (min-width t-screen)
+            font-size 18px
+
+          span
+            color #ffffff
+            font-family Geometria
+            font-weight 700
+            font-size 20px
+            @media (min-width t-screen)
+              font-size 30px
+    form
+      width 290px
+      height auto
+      box-shadow 0 5px 15px rgba(0, 0, 0, 0.1)
+      border-radius 4px
+      background-color #ffffff
+      display flex
+      display -webkit-flex
+      justify-content center
+      align-items center
+      flex-direction column
+      padding 32px 28px
+      box-sizing border-box
+      position absolute
+      top 90%
+      @media (min-width t-screen)
+        width 710px
+        top 88%
+        left 0
+        padding-top 40px
+        padding-bottom 33px
+      @media (min-width d-screen)
+        top 79%
+        left 17%
+        width 866px
+
+
+      p
+        color #555555
+        font-family Geometria
+        font-size 14px
+        line-height 16px
+        text-align center
+        margin-bottom 32px
+        @media (min-width t-screen)
+          font-size 18px
+
+      .input-form
+        width 100%
+        height auto
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items center
+        flex-direction column
+        @media (min-width t-screen)
+          flex-direction row
+          justify-content space-between
+          margin-bottom 20px
+
+        input
+          margin-bottom 16px
+          color #b3b3b3
+          font-family Lato
+          font-size 13px
+          font-weight 400
+          letter-spacing 0.2px
+          position relative
+          @media (min-width t-screen)
+            width 200px
+            margin-bottom 0
+            height 48px
+          @media (min-width d-screen)
+            width 240px
+
+        button
+          margin-top 16px
+          margin-bottom 15px
+          @media (min-width t-screen)
+            margin-top 0
+          @media (min-width d-screen)
+            width 240px
+
+      .polit
+        font-size 10px
+        margin-bottom 0
+        color #c1c1c1
+
+
+input[type=range] + .thumb.active .value
+  display none!important
+
+span.thumb
+  display none!important

@@ -1,0 +1,194 @@
+dh-screen = 1440px
+d-screen = 1280px
+t-screen = 768px
+h-screen = 320px
+
+.cnt
+  box-sizing border-box
+  padding 0 12px
+  width: 100%
+  @media (min-width: t-screen)
+    padding 0 29px
+    width 100%
+  @media (min-width: d-screen)
+    padding 0 46px
+    margin 0 auto
+  @media (min-width: dh-screen)
+    padding 0 128px
+
+.row
+  max-width 1280px
+  margin 0 auto
+  display flex
+  display -webkit-flex
+
+.a-phone
+  color #6d6d6d
+  font-family Geometria
+  font-size 18px
+  font-weight 500
+  text-transform uppercase
+  text-align center
+  transition 0.2s all ease
+  &:hover
+    color #333333
+
+
+.a-blue
+  color #5ac6eb
+  font-family Geometria
+  font-size 15px
+  transition 0.2s all ease
+  &:hover
+    color #3f7290
+
+
+input
+  width 240px
+  height 40px
+  border-radius 2px
+  border 1px solid #f3f3f3
+  background-color #fdfdfd
+  text-align center
+  color #b3b3b3
+  font-family Lato
+  font-size 13px
+  font-weight 400
+  letter-spacing 0.2px
+
+.submit
+  width 190px
+  height 44px
+  border-radius 5px
+  background-color #3abedc
+  color #ffffff
+  font-family Lato
+  font-size 15px
+  font-weight 400
+  letter-spacing 0.32px
+  position relative
+  border none
+  box-sizing border-box
+  padding-left 20px
+  transition all 0.3s ease
+  cursor pointer
+  &:hover
+    background-color #31a3bd
+  &:before
+    content ""
+    position absolute
+    top 14px
+    left 38px
+    width 16px
+    height 14px
+    background-image url("img/done.svg")
+    background-repeat no-repeat
+    background-position center
+    background-size 100%
+
+h2
+  font-family Geometria
+  font-size 24px
+  font-weight 300
+  color #5c5c5c
+  letter-spacing -1px
+  @media (min-width t-screen)
+    font-size 36px
+    line-height 40px
+
+  span
+    color #1fbbe5
+    letter-spacing -1px
+    @media (min-width t-screen)
+      font-size 36px
+      line-height 40px
+
+
+
+////---PLACEHOLDERS---////
+input[type='text']::-webkit-input-placeholder {
+  opacity: 1;
+  color: #bfbfbf !important;
+}
+
+input[type='text']::-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+input[type='text']:-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+input[type='text']:-ms-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+input[type='text']:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input[type='text']:focus::-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input[type='text']:focus:-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input[type='text']:focus:-ms-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+textarea::-webkit-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+textarea::-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+textarea:-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+textarea:-ms-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+textarea:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus::-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus:-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus:-ms-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}

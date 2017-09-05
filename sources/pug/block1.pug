@@ -1,0 +1,20 @@
+
+section.block1.cnt
+    div.bg-mask
+    video#bgvideo.bgvideo(playsinline autoplay muted loop preload)
+        source(src="img/Nouveaucontour.mp4" type="video/mp4")
+
+    div.block1-content.row
+        div.block1-head
+            h1 Пройди уникальный курс перманентного макияжа в Академии
+            div.logo-conteiner
+                img(src="img/big-logo.svg")
+
+        form(action="mailer.php" method="post")
+            p Оставьте заявку, и мы свяжемся с вами в ближайшее время
+            input.phone(name="phone" type="text" placeholder="Ваш телефон")
+            input(name="email" type="text" placeholder="Ваш email")
+            button.submit(type="submit") Записаться
+            p.polit Заполняя данную форму вы принимаете условия &nbsp;
+                a.fancybox(href="obrabotka_personalnih_dannih_nc.pdf" target="_blank") обработки и использования
+            p.polit персональных данных. Мы гарантируем конфиденциальность Ваших данных
